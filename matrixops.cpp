@@ -81,7 +81,7 @@ static PyObject * resist(PyObject * module, PyObject * args)
 PyMODINIT_FUNC PyInit_matrixops()
 {
 	static PyMethodDef ModuleMethods[] = {
-		{ "F_W", resist, METH_VARARGS, "Floyd–Warshall algorithm" },
+		{ "F_W", resist, METH_VARARGS, "Floyd_Warshall algorithm" },
 		{ NULL, NULL, 0, NULL }
 	};
 	static PyModuleDef ModuleDef = {
